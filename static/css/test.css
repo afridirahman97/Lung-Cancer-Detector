@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.foot
+{
+
+    background-color:  #384852;
+    color:white;
+    margin-top:300px;
+    margin-bottom:0px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left:0px;
+    text-align:center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.hero-wrapper
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color:#BDB0F9;
+}
+
+.hero-title
+{
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #2C3E50;
+  font-family:'lato'
+}
+
+.hero-copy
+{
+  margin-bottom: 30px;
+  color: #1C2833;
+  font-size: 20px;
+  font-family:'lato'
+  font-weight: 700;
+}
+
+.hero-image
+{
+  width: 60%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 30rem;
+}
+.hero-copy-container
+{
+  width: 70%;
+  padding:4%
+}
+
+.navbar
+{
+  background-color:#BDB0F9;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.navbar-logo i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #737ffa;
+}
+
+.navbar-logo
+{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1C2833;
+  font-family:'lato';
+  padding-left:10px;
+}
+
+.brain_icon
+{
+ overflow:hidden;
+ margin-bottom:15px;
+ margin-left:10px;
+}
+
+.body_one{
+background-color:#BDB0F9;
+}
+
+.button_p{
+  background-color: #445FC4;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+buttonU {
+  background-color: #445FC4;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+
+
+.
